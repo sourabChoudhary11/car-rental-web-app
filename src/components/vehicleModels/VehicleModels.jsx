@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import VehicleModelsDetails from './vehicleModelsDetails/vehicleModelsDetails';
+import VehicleModelsDetails from './vehicleModelsDetails/vehicleModelsDetails.js';
 
 const VehicleModels = () => {
     const [carModelDetails, setCarModelDetails] = useState({});
