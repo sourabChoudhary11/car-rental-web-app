@@ -2,7 +2,7 @@ import React from 'react'
 
 const IntroCarRental = () => {
     return (
-        <div className='mb-20 flex items-center flex-col-reverse md:p-10 md:flex-row'>
+        <div className='mb-20 px-5 flex items-center flex-col-reverse md:p-10 md:flex-row'>
             <div className='flex flex-col justify-center space-y-3 lg:w-2/4 lg:space-y-5'>
                 <h3 className='text-xl font-bold'>
                     Plan your trip

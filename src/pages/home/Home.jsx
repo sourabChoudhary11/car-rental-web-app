@@ -6,12 +6,12 @@ import IntroCarRental from '../../components/introCarRental/IntroCarRental.jsx'
 
 const Home = () => {
   return (
-    <div>
+    <>
         <IntroCarRental />
         <BookCar />
         <TripPlan />
         <VehicleModels />
-    </div>
+    </>
   )
 }
 

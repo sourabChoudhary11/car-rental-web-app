@@ -2,11 +2,11 @@ import React from 'react'
 
 const AvailableVehicleModels = () => {
     return (
-        <div className='flex flex-wrap'>
+        <div className='flex flex-wrap px-5'>
             {/* first card */}
             <div className='flex flex-col space-y-3 p-5 w-full md:w-3/6 lg:w-2/6'>
-                <div className="flex justify-between">
-                    <img src="https://carwow-uk-wp-2.imgix.net/Audi-A1-Tioman-Green.jpg?auto=format&cs=tinysrgb&fit=clip&ixlib=rb-1.1.0&q=60&w=750" alt="" />
+                <div>
+                    <img className="w-full" src="https://carwow-uk-wp-2.imgix.net/Audi-A1-Tioman-Green.jpg?auto=format&cs=tinysrgb&fit=clip&ixlib=rb-1.1.0&q=60&w=750" alt="" />
                 </div>
 
                 <div className="flex justify-between">
@@ -33,7 +33,7 @@ const AvailableVehicleModels = () => {
             {/* second card */}
             <div className='flex flex-col space-y-3 p-5 w-full md:w-3/6 lg:w-2/6'>
                 <div>
-                    <img src="https://www.motor.es/noticias/nuevo-volkswagen-golf-vi-fotos-e-informacion-146_5.jpg" alt="" />
+                    <img className="w-full" src="https://www.motor.es/noticias/nuevo-volkswagen-golf-vi-fotos-e-informacion-146_5.jpg" alt="" />
                 </div>
 
                 <div className="flex justify-between">
@@ -60,7 +60,7 @@ const AvailableVehicleModels = () => {
             {/* third card */}
             <div className='flex flex-col space-y-3 p-5 w-full md:w-3/6 lg:w-2/6'>
                 <div>
-                    <img src="https://images.91wheels.com/assets/b_images/main/models/profile/profile1660727109.png?width=360&q=60?w=750&q=60" alt="" />
+                    <img className="w-full" src="https://images.91wheels.com/assets/b_images/main/models/profile/profile1660727109.png?width=360&q=60?w=750&q=60" alt="" />
                 </div>
 
                 <div className="flex justify-between">
@@ -87,7 +87,7 @@ const AvailableVehicleModels = () => {
             {/* fourth card */}
             <div className='flex flex-col space-y-3 p-5 w-full md:w-3/6 lg:w-2/6'>
                 <div>
-                    <img src="https://www.bmw.in/content/dam/bmw/marketIN/bmw_in/all-models/3-series/gl/2023/navigation.png" alt="" />
+                    <img className="w-full" src="https://www.bmw.in/content/dam/bmw/marketIN/bmw_in/all-models/3-series/gl/2023/navigation.png" alt="" />
                 </div>
 
                 <div className="flex justify-between">
@@ -114,7 +114,7 @@ const AvailableVehicleModels = () => {
             {/* fifth card */}
             <div className='flex flex-col space-y-3 p-5 w-full md:w-3/6 lg:w-2/6'>
                 <div>
-                    <img src="https://imgd.aeplcdn.com/642x336/n/cw/ec/45477/mercedesbenz-glc-coupe-right-front-three-quarter1.jpeg?q=80&q=80" alt="" />
+                    <img className="w-full" src="https://imgd.aeplcdn.com/642x336/n/cw/ec/45477/mercedesbenz-glc-coupe-right-front-three-quarter1.jpeg?q=80&q=80" alt="" />
                 </div>
 
                 <div className="flex justify-between">
@@ -142,7 +142,7 @@ const AvailableVehicleModels = () => {
             {/* sixth card */}
             <div className='flex flex-col space-y-3 p-5 w-full md:w-3/6 lg:w-2/6'>
                 <div>
-                    <img src="https://staticeu-h2.izmocars.com/toolkit/commonassets/2022/22volkswagen/22volkswagenpassatelegnsbizwg8fb/22volkswagenpassatelegnsbizwg8fb_pixGallery/_gallerypix/volkswagen_passatelegnsbizwg8fb_concept.jpg" alt="" />
+                    <img className="w-full" src="https://staticeu-h2.izmocars.com/toolkit/commonassets/2022/22volkswagen/22volkswagenpassatelegnsbizwg8fb/22volkswagenpassatelegnsbizwg8fb_pixGallery/_gallerypix/volkswagen_passatelegnsbizwg8fb_concept.jpg" alt="" />
                 </div>
 
                 <div className="flex justify-between">

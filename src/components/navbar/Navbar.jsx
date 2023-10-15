@@ -17,7 +17,7 @@ const Navbar = () => {
             <nav>
                 <main className='flex items-center justify-between p-5 lg:justify-around'>
                     <div className='logo flex items-center text-2xl'>
-                        <img className="w-24" src="https://w7.pngwing.com/pngs/422/582/png-transparent-taxi-car-rental-computer-icons-rent-miscellaneous-orange-logo.png" alt="car_rental_logo" /> <span className="font-bold text-2xl text-orange-500">C</span>Rental
+                        <img className="w-16 bg-white rounded-full mr-2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_I240eXYB6pJ3_DyMsI2kkByCCtvAvaJsbXw0X-dXszr2SKR2B6_jwmpsDvd-udBdwU4&usqp=CAU" alt="car_rental_logo" /> <span className="font-bold text-2xl text-orange-500">C</span>Rental
                     </div>
 
                     <button onClick={clickHandler} className='text-3xl active:opacity-70 lg:hidden'>

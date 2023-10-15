@@ -25,7 +25,7 @@ const VehicleModels = () => {
     }, [])
     console.log(activeModelDetails);
     return (
-        <div className='sm:mx-20'>
+        <div className='px-5 sm:mx-20'>
 
             <div className='flex flex-col items-center my-16 text-center space-y-3'>
                 <h2 className='text-2xl font-bold font-[sans-serif]'>Vehicle Models</h2>

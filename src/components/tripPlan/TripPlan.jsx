@@ -5,7 +5,7 @@ import { FaCarSide } from "react-icons/fa"
 
 const TripPlan = () => {
     return (
-        <div className='text-center py-16'>
+        <div className='text-center px-5 py-16'>
             <h3 className='font-bold text-xl xl:text-2xl'>Plan your trip now</h3>
             <h1 className='font-bold text-3xl md:text-4xl'>Quick & easy car rental</h1>
             <div className='flex flex-col sm:flex-row sm:flex-wrap'>

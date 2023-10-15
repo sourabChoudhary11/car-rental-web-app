@@ -2,7 +2,7 @@ import React from 'react'
 
 const BookCar = () => {
   return (
-    <form className='sm:mx-20'>
+    <form className='px-5 sm:mx-20'>
       <h2 className='text-3xl font-bold my-5'>Book a car</h2>
       <div className='flex flex-col sm:flex-row sm:flex-wrap'>
 
